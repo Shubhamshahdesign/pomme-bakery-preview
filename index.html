@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pomme Bakery | An Artisan Bakery based in Shoreditch</title>
+  <meta name="description" content="Pomme is an artisan bakery at 68 Kingsland Road, London E2 8DP. Pastries, sourdough, cakes and coffee, all made fresh on site daily. Open Tuesday to Sunday.">
+  <!-- Pitch preview: delete this line once the owner signs off -->
+  <meta name="robots" content="noindex">
+  <meta property="og:title" content="Pomme Bakery, Kingsland Road">
+  <meta property="og:description" content="Pastries, sourdough, cakes and coffee, made fresh on site daily in Shoreditch.">
+  <meta property="og:image" content="assets/img/hero-croissants.jpg">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#F7F6F2">
+  <link rel="icon" type="image/png" href="assets/logo/favicon.png">
+  <link rel="preload" href="assets/fonts/newsreader-latin-300-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/geist-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Bakery",
+    "name": "Pomme Bakery",
+    "description": "Artisan bakery in Shoreditch. Cakes, sourdough bread, pastries and coffee, made fresh on site daily.",
+    "email": "hello@pommebakery.com",
+    "image": "assets/img/shopfront.jpg",
+    "address": {"@type": "PostalAddress", "streetAddress": "68 Kingsland Road", "addressLocality": "London", "postalCode": "E2 8DP", "addressCountry": "GB"},
+    "openingHoursSpecification": [
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "08:00", "closes": "14:30"},
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "15:00"},
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday","Sunday"], "opens": "09:15", "closes": "15:00"}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="shell header-inner">
+      <a href="#top" class="brand" aria-label="Pomme Bakery, back to top">
+        <img src="assets/logo/pomme-wordmark-black.png" alt="Pomme" width="986" height="162">
+      </a>
+      <nav id="nav" class="nav" aria-label="Main">
+        <a href="#counter">Pastries</a>
+        <a href="#order">Order ahead</a>
+        <a href="#story">Our story</a>
+        <a href="#find-us">Find us</a>
+      </nav>
+      <div class="header-end">
+        <p class="status" data-status><span class="dot" aria-hidden="true"></span><span data-status-text>Opening hours</span></p>
+        <a class="btn btn-ink btn-sm" href="#find-us">Directions</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav"><span class="sr-only">Open menu</span><span class="bars" aria-hidden="true"></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="shell hero-grid">
+        <div class="hero-text">
+          <p class="kicker">Artisan bakery on Kingsland Road, E2</p>
+          <h1 id="hero-title">Pastries, bread and coffee, baked each morning at number&nbsp;68.</h1>
+          <p class="hero-sub">Cakes, sourdough, laminated pastries and good coffee, all made fresh on site daily by our baker, Ivie.</p>
+          <div class="actions">
+            <a class="btn btn-ink" href="#find-us">Get directions</a>
+            <a class="text-link" href="#counter">See what's on the counter</a>
+          </div>
+        </div>
+
+        <figure class="hero-main">
+          <img src="assets/img/hero-croissants.jpg" alt="Dark, glossy croissants piled on a steel tray at Pomme" width="860" height="690" fetchpriority="high">
+        </figure>
+        <figure class="hero-inset">
+          <img src="assets/img/shopfront.jpg" alt="Pomme's sage green shopfront at 68 Kingsland Road" width="768" height="1020">
+          <figcaption>The shop at 68 Kingsland Road</figcaption>
+        </figure>
+        <dl class="hero-facts">
+          <div>
+            <dt>Today</dt>
+            <dd data-today>Tue 8am–2:30pm, Wed–Fri 8am–3pm, Sat–Sun 9:15am–3pm</dd>
+          </div>
+          <div>
+            <dt>Address</dt>
+            <dd><a href="https://www.google.com/maps/dir/?api=1&destination=Pomme+Bakery,+68+Kingsland+Road,+London+E2+8DP" target="_blank" rel="noopener">68 Kingsland Road, London E2 8DP</a></dd>
+          </div>
+          <div>
+            <dt>Pre-orders</dt>
+            <dd><a href="mailto:orders@pommebakery.com">orders@pommebakery.com</a>, 48 hours' notice</dd>
+          </div>
+        </dl>
+      </div>
+
+    </section>
+
+    <!-- COUNTER / MENU INDEX -->
+    <section class="counter" id="counter" aria-labelledby="counter-title">
+      <div class="shell counter-grid">
+        <div class="counter-intro">
+          <h2 id="counter-title">On the counter</h2>
+          <p>The bake changes with the seasons, so this is a taste of what you might find. Prices were taken from the counter and may change.</p>
+          <figure class="preview" aria-hidden="true">
+            <img data-preview src="assets/img/scrolls-and-babka.jpg" alt="" width="765" height="1020">
+          </figure>
+        </div>
+
+        <div class="menu">
+          <div class="menu-group">
+            <h3>Croissants</h3>
+            <ul>
+              <li data-img="croissant"><span class="item">Croissant</span><span class="price">£3.00</span></li>
+              <li data-img="pain-au-chocolat"><span class="item">Pain au chocolat</span><span class="price">£3.80</span></li>
+              <li data-img="almond-croissant"><span class="item">Almond croissant</span><span class="price">£4.20</span></li>
+              <li data-img="scallion-croissant"><span class="item">Scallion cream cheese croissant</span><span class="price">£4.90</span></li>
+            </ul>
+          </div>
+          <div class="menu-group">
+            <h3>Danishes, rolls and brioche</h3>
+            <ul>
+              <li data-img="apple-danish"><span class="item">Vanilla apple compote danish<small>with maple custard</small></span><span class="price">£5.20</span></li>
+              <li data-img="banana-roll"><span class="item">Caramelised banana jam roll<small>roasted barley and malt custard</small></span><span class="price">£5.10</span></li>
+              <li data-img="brioche"><span class="item">Laminated brioche<small>perilla, vanilla and orange blossom</small></span><span class="price">£4.90</span></li>
+              <li data-img="butterscotch-scroll"><span class="item">Butterscotch cinnamon scroll</span><span class="price">£4.60</span></li>
+              <li data-img="brown-butter-scroll"><span class="item">Brown butter cinnamon scroll<small>with sour cream</small></span><span class="price">£4.60</span></li>
+              <li data-img="babka"><span class="item">Babka<small>blondie, white and dark chocolate</small></span><span class="price">£4.90</span></li>
+            </ul>
+          </div>
+          <div class="menu-group">
+            <h3>Bread and cake</h3>
+            <ul>
+              <li data-img="sourdough"><span class="item">Pomme sourdough loaf</span><span class="price">[price]</span></li>
+              <li data-img="crumble-slice"><span class="item">Banana bread<small>with a spiced crumble top</small></span><span class="price">[price]</span></li>
+            </ul>
+          </div>
+          <div class="menu-group">
+            <h3>Coffee and tea</h3>
+            <ul>
+              <li data-img="coffee"><span class="item">Espresso, americano, macchiato, flat white, latte, cappuccino, mocha<small>Coffee from Assembly. Beans to take home £11.50</small></span><span class="price">See board</span></li>
+              <li data-img="matcha"><span class="item">Matcha, chai and hot chocolate<small>Tea from Good &amp; Proper</small></span><span class="price">See board</span></li>
+            </ul>
+            <p class="menu-note">Alternative milks, syrups and decaf are available. If you have an allergy, please ask us before you order.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ORDER AHEAD -->
+    <section class="order" id="order" aria-labelledby="order-title">
+      <div class="shell">
+        <div class="sign">
+          <div class="sign-inner">
+            <h2 id="order-title">Order ahead for collection</h2>
+            <p>Boxes of pastries for the office, a loaf for the weekend or cakes for a birthday. Email us what you'd like and when you'll pick it up, with at least 48 hours' notice, and it will be baked fresh for you.</p>
+            <a class="btn btn-light" href="mailto:orders@pommebakery.com?subject=Pre-order%20for%20collection">Email orders@pommebakery.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STORY -->
+    <section class="story" id="story" aria-labelledby="story-title">
+      <div class="shell story-grid">
+        <figure class="story-photo">
+          <img src="assets/img/counter-and-bread.jpg" alt="The plaster counter at Pomme with sourdough loaves on wooden shelves and the coffee board above" width="1360" height="1020" loading="lazy">
+          <figcaption>Sourdough on the shelves, coffee beans from Assembly under the counter</figcaption>
+        </figure>
+        <div class="story-text">
+          <h2 id="story-title">One baker, everything from scratch</h2>
+          <p>Pomme opened on Kingsland Road in August 2023. Ivie Egonmwan, who owns it, bakes every pastry herself, and every recipe on the counter is her own.</p>
+          <p>She uses sustainable ingredients and buys from local, independent and small-scale suppliers wherever she can. Expect a dark, glossy bake on the croissants and flavours you won't find in other London bakeries, from twice-baked coconut and pistachio pain au chocolat to quince tarte tatin in the autumn.</p>
+        </div>
+      </div>
+      <div class="shell">
+        <blockquote class="press">
+          <p>“With precision, creativity and some of the best ingredients available.”</p>
+          <footer><cite>Palate Magazine</cite>, on Ivie's pastries</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery" aria-label="Photos from Pomme">
+      <div class="shell gallery-grid">
+        <figure class="g1"><img src="assets/img/queue-at-counter.jpg" alt="Customers queuing at the counter under round pendant lights" width="1360" height="1020" loading="lazy"></figure>
+        <figure class="g2"><img src="assets/img/green-cup.jpg" alt="Mint green takeaway cup printed with the Pomme name" width="785" height="1020" loading="lazy"></figure>
+        <figure class="g3"><img src="assets/img/twisted-bun.jpg" alt="A twisted brioche bun on a Pomme paper bag" width="805" height="1020" loading="lazy"></figure>
+        <figure class="g4"><img src="assets/img/matcha-and-pastries.jpg" alt="Two matcha lattes with pastries, seen from above" width="765" height="1020" loading="lazy"></figure>
+        <figure class="g5"><img src="assets/img/cappuccinos.jpg" alt="Two cappuccinos dusted with cocoa" width="765" height="1020" loading="lazy"></figure>
+      </div>
+    </section>
+
+    <!-- FIND US -->
+    <section class="find" id="find-us" aria-labelledby="find-title">
+      <div class="shell find-grid">
+        <div class="find-text">
+          <h2 id="find-title">Find us</h2>
+          <address>68 Kingsland Road<br>London E2 8DP</address>
+          <p class="find-where">On Kingsland Road, a short walk north of Shoreditch High Street. Look for the sage green shopfront with "Pomme" painted over the windows.</p>
+
+          <h3>Getting here</h3>
+          <ul class="routes">
+            <li><strong>Hoxton</strong><span>Overground, about a 3 minute walk</span></li>
+            <li><strong>Shoreditch High Street</strong><span>Overground, about an 8 minute walk</span></li>
+            <li><strong>Old Street</strong><span>Northern line, about a 15 minute walk</span></li>
+            <li><strong>Bus</strong><span>Routes 67, 149, 242 and 243 stop on Kingsland Road</span></li>
+          </ul>
+
+          <div class="map-links">
+            <a class="btn btn-ink" href="https://www.google.com/maps/dir/?api=1&destination=Pomme+Bakery,+68+Kingsland+Road,+London+E2+8DP" target="_blank" rel="noopener">Google Maps</a>
+            <a class="btn btn-line" href="https://maps.apple.com/?daddr=68+Kingsland+Road,+London+E2+8DP&q=Pomme+Bakery" target="_blank" rel="noopener">Apple Maps</a>
+            <a class="btn btn-line" href="https://citymapper.com/directions?endaddress=68%20Kingsland%20Road%2C%20London%20E2%208DP&endname=Pomme%20Bakery" target="_blank" rel="noopener">Citymapper</a>
+          </div>
+        </div>
+
+        <div class="find-side">
+          <div class="map">
+            <iframe title="Map showing Pomme Bakery at 68 Kingsland Road" src="https://www.google.com/maps?q=Pomme+Bakery,+68+Kingsland+Road,+London+E2+8DP&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="hours-card">
+            <h3>Opening hours</h3>
+            <table class="hours">
+              <caption class="sr-only">Opening hours</caption>
+              <tbody>
+                <tr data-day="2"><th scope="row">Tuesday</th><td>8am – 2:30pm</td></tr>
+                <tr data-day="3"><th scope="row">Wednesday</th><td>8am – 3pm</td></tr>
+                <tr data-day="4"><th scope="row">Thursday</th><td>8am – 3pm</td></tr>
+                <tr data-day="5"><th scope="row">Friday</th><td>8am – 3pm</td></tr>
+                <tr data-day="6"><th scope="row">Saturday</th><td>9:15am – 3pm</td></tr>
+                <tr data-day="0"><th scope="row">Sunday</th><td>9:15am – 3pm</td></tr>
+                <tr data-day="1"><th scope="row">Monday</th><td>Closed</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-top">
+      <img class="footer-logo" src="assets/logo/pomme-logo-white.png" alt="Pomme Bakery" width="986" height="319" loading="lazy">
+      <div class="footer-cols">
+        <div>
+          <h2>Visit</h2>
+          <p>68 Kingsland Road<br>London E2 8DP</p>
+        </div>
+        <div>
+          <h2>Hours</h2>
+          <p>Tuesday 8am–2:30pm<br>Wednesday to Friday 8am–3pm<br>Saturday and Sunday 9:15am–3pm<br>Closed Monday</p>
+        </div>
+        <div>
+          <h2>Email</h2>
+          <p><a href="mailto:hello@pommebakery.com">hello@pommebakery.com</a><br><a href="mailto:orders@pommebakery.com">orders@pommebakery.com</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="shell footer-base">
+      <p>© <span data-year>2026</span> Pomme Bakery</p>
+      <p>Website by <a href="mailto:shahshubham130@gmail.com">Shubham Shah</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
